@@ -1,7 +1,29 @@
 aid: soma-energy
 name: Soma Energy
-description: Soma Energy is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Soma Energy is an AI-powered energy intelligence platform that optimizes how
+  power is produced, stored, and consumed. Founded by former Amazon and
+  technology leaders, it coordinates power generation, battery storage, and
+  large energy consumers such as data centers. Its Intelligence Platform
+  combines three products: AI Trader, which automates energy procurement,
+  hedging, and dispatch for independent power producers (IPPs); BESS Dispatcher,
+  which manages battery energy storage systems; and Load Optimizer, which
+  coordinates data-center workloads with grid conditions to cut energy costs and
+  turn facilities into flexible grid assets. Soma Energy is an early-stage
+  company backed by Uncork Capital. As of this profile the company exposes no
+  public API, developer platform, or documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6764200aac17a9824b000cf5/68eca865e994347781c3d3c0_soma-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/soma-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +31,31 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Energy
+- Artificial Intelligence
+- Energy Trading
+- Battery Storage
+- Data Centers
+- Grid Optimization
+- Clean Energy
 apis: []
+common:
+- type: DomainSecurity
+  url: security/soma-energy-domain-security.yml
+- type: Website
+  url: https://soma.energy
+- type: Support
+  url: https://soma.energy/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
