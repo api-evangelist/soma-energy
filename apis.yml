@@ -12,6 +12,17 @@ description: >-
   turn facilities into flexible grid assets. Soma Energy is an early-stage
   company backed by Uncork Capital. As of this profile the company exposes no
   public API, developer platform, or documentation.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
