@@ -56,7 +56,7 @@ tags:
 - Artificial Intelligence
 - Energy Trading
 - Battery Storage
-- Data-Center
+- Data Center
 - Grid Optimization
 - Clean Energy
 tags_raw:
@@ -68,6 +68,7 @@ tags_raw:
 - Data Centers
 - Grid Optimization
 - Clean Energy
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
